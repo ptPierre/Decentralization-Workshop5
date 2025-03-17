@@ -24,7 +24,7 @@ async function closeAllServers(
     )
   );
 
-  await delay(50);
+  await delay(500);
 }
 
 describe("Ben-Or decentralized consensus algorithm", () => {

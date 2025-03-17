@@ -6,3 +6,10 @@ export type NodeState = {
 };
 
 export type Value = 0 | 1 | "?";
+
+export type Message = {
+  phase: 1 | 2;
+  k: number;
+  value: Value;
+  sender: number;
+};
